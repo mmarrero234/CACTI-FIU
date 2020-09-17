@@ -1,0 +1,110 @@
+<userConfiguration>
+<codes><!-- Parent codes -->
+<code name="BLAME" value="11"/>
+<code name="PERSUADE" value="12"/>
+<code name="AFFIRM" value="13"/>
+<code name="ENCOURAGE" value="14"/>
+<code name="WISHES" value="15"/>
+<code name="NEUTRAL (PARENT)" value="16"/>
+<code name="NO CODE (PARENT)" value="17"/>
+<code name="CT" value="18"/>
+<code name="CT BP" value="19"/>
+<code name="CT REL" value="20"/>
+<code name="CT INT" value="21"/>
+<code name="ST" value="22"/>
+<code name="ST BP" value="23"/>
+<code name="ST REL" value="24"/>
+<code name="ST INT" value="25"/>
+</codes>
+
+<codeControls panel="left" label="Parent"><!-- Parent button layout -->
+<row><button code="BLAME"/><button code="PERSUADE"/><button code="AFFIRM"/><button code="ENCOURAGE"/></row>
+<row><button code="WISHES"/><button code="NEUTRAL (PARENT)"/><button code="NO CODE (PARENT)"/></row>
+<row><button code="CT"/><button code="CT BP"/><button code="CT REL"/><button code="CT INT"/></row>
+<row><button code="ST"/><button code="ST BP"/><button code="ST REL"/><button code="ST INT"/></row>
+</codeControls>
+
+<codes><!-- Teen codes -->
+<code name="NO CODE (TEEN)" value="31"/>
+<code name="NEUTRAL (TEEN)" value="32"/>
+<code name="CONTRIBUTE" value="33"/>
+<code name="CONFRONT" value="34"/>
+<code name="CHANGE TALK" value="35"/>
+<code name="SUSTAIN TALK" value="36"/>
+</codes>
+
+<codeControls panel="center" label="Teen"><!-- Teen button layout -->
+<row><button code="NO CODE (TEEN)"/><button code="NEUTRAL (TEEN)"/><button code="CONTRIBUTE"/></row>
+<row><button code="CONFRONT"/><button code="CHANGE TALK"/><button code="SUSTAIN TALK"/></row>
+</codeControls>
+
+<codes><!-- Therapist codes -->
+<code name="NC-Th" value="50"/>
+<code name="GI" value="51"/>
+<code name="Q0" value="52"/>
+<code name="Q-" value="53"/>
+<code name="Q+" value="54"/>
+<code name="Q+/-" value="55"/>
+<code name="R0" value="56"/>
+<code name="R-" value="57"/>
+<code name="R+" value="58"/>
+<code name="R+/-" value="59"/>
+<code name="Ra" value="60"/>
+<code name="Rb" value="61"/>
+<code name="Ra/b" value="62"/>
+<code name="AF-Th" value="63"/>
+<code name="MIA" value="64"/>
+<code name="MINA" value="65"/>
+</codes>
+
+<codeControls panel="right" label="Therapist"><!-- Therapist button layout -->
+<row><button code="NC-Th"/><button code="GI"/><button code="Q0"/><button code="Q-"/></row>
+<row><button code="Q+"/><button code="Q+/-"/><button code="R0"/><button code="R-"/></row>
+<row><button code="R+"/><button code="R+/-"/><button code="Ra"/><button code="Rb"/></row>
+<row><button code="Ra/b"/><button code="AF-Th"/><button code="MIA"/><button code="MINA"/></row>
+</codeControls>
+
+<globals><!-- Global codes -->
+<global name="PARENTSOLUTIONFOCUSED" label="Solution-Focused" value="0" defaultRating="-1"/>
+<global name="PARENTENCOURAGINGTEENVOICE" label="Encouraging Teen Voice" value="1" defaultRating="-1"/>
+<global name="PARENTSELFEXPLORATION" label="Parent Self Exploration" value="2" defaultRating="-1"/>
+<global name="PARENTOPTIMISM" label="Optimism" value="3" defaultRating="-1"/>
+<global name="TEENPARTICIPATION" label="Participation" value="4" defaultRating="-1"/>
+<global name="TEENOPENNESS" label="Openness" value="5" defaultRating="-1"/>
+<global name="TEENSELFEXPLORATION" label="Teen Self Exploration" value="6" defaultRating="-1"/>
+<global name="TEENCONTEMPT" label="Contempt" value="7" defaultRating="-1"/>
+<global name="HOLDINGFOCUS" label="Holding Focus" value="8" defaultRating="-1"/>
+<global name="AUTONOMYSUPPORTPARENT" label="Autonomy Support Parent" value="9" defaultRating="-1"/>
+<global name="AUTONOMYSUPPORTTEEN" label="Autonomy Support Teen" value="10" defaultRating="-1"/>
+<global name="EMPATHY" label="Empathy" value="11" defaultRating="-1"/>
+<global name="ELICITINGPARENT" label="Eliciting Parent" value="12" defaultRating="-1"/>
+<global name="ELICITINGTEEN" label="Eliciting Teen" value="13" defaultRating="-1"/>
+<global name="BALANCE" label="Balance" value="14" defaultRating="-3"/>
+<global name="HWREVIEW" label="HW Review" value="15" defaultRating="-1"/>
+<global name="HWASSIGNMENT" label="HW Assignment" value="16" defaultRating="-1"/>
+<global name="HWCOMPLETIONPARENT" label="HW Completion Parent" value="17" defaultRating="-1"/>
+<global name="HWCOMPLETIONTEEN" label="HW Completion Teen" value="18" defaultRating="-1"/>
+</globals>
+
+<!-- Global code layout -->
+<globalControls panel="left"><slider global="PARENTSOLUTIONFOCUSED"/></globalControls>
+<globalControls panel="left"><slider global="PARENTENCOURAGINGTEENVOICE"/></globalControls>
+<globalControls panel="left"><slider global="PARENTSELFEXPLORATION"/></globalControls>
+<globalControls panel="left"><slider global="PARENTOPTIMISM"/></globalControls>
+<globalControls panel="center"><slider global="TEENPARTICIPATION"/></globalControls>
+<globalControls panel="center"><slider global="TEENOPENNESS"/></globalControls>
+<globalControls panel="center"><slider global="TEENSELFEXPLORATION"/></globalControls>
+<globalControls panel="center"><slider global="TEENCONTEMPT"/></globalControls>
+<globalControls panel="right"><slider global="HOLDINGFOCUS"/></globalControls>
+<globalControls panel="right"><slider global="AUTONOMYSUPPORTPARENT"/></globalControls>
+<globalControls panel="right"><slider global="AUTONOMYSUPPORTTEEN"/></globalControls>
+<globalControls panel="right"><slider global="EMPATHY"/></globalControls>
+<globalControls panel="right"><slider global="ELICITINGPARENT"/></globalControls>
+<globalControls panel="right"><slider global="ELICITINGTEEN"/></globalControls>
+<globalControls panel="right"><slider global="BALANCE"/></globalControls>
+<globalControls panel="right"><slider global="HWCOMPLETIONPARENT"/></globalControls>
+<globalControls panel="center"><slider global="HWCOMPLETIONTEEN"/></globalControls>
+<globalControls panel="center"><slider global="HWASSIGNMENT"/></globalControls>
+<globalControls panel="center"><slider global="HWREVIEW"/></globalControls>
+
+</userConfiguration>
